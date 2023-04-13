@@ -12,7 +12,9 @@ module.exports = {
       black: "#000000",
       green: "#16A34A",
       footerBg: "#171717",
+      footerBorder: "#E5E7EB",
       grey: "#6B7280",
+      searchInput: "#2563EB",
     },
     fontFamily: {
       sans: ["Oxanium", "sans-serif"],

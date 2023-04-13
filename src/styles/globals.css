@@ -9,3 +9,8 @@ html {
 body {
   overflow-x: hidden;
 }
+
+button:focus,
+input:focus {
+  outline: 0;
+}
