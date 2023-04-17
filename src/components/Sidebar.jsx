@@ -25,7 +25,7 @@ const Sidebar = ({ razerLogo }) => {
   }, [modal]);
 
   return (
-    <main className="relative">
+    <>
       <nav className="sticky min-h-[10vh] top-0 w-full p-4 flex-row items-center justify-center bg-black shadow-[0px_2px_0px_0px] shadow-green text-white">
         <ul className="flex flex-row items-center justify-between text-grey font-normal text-base">
           <li>
@@ -105,7 +105,7 @@ const Sidebar = ({ razerLogo }) => {
           ))}
         </ul>
       </section>
-    </main>
+    </>
   );
 };
 

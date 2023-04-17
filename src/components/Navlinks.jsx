@@ -51,7 +51,7 @@ const Navlinks = () => {
         </ul>
       </nav>
 
-      <section className="md:hidden block w-full">
+      <section className="md:hidden block sticky top-0 w-full">
         <Sidebar razerLogo={razerLogo} />
       </section>
     </>

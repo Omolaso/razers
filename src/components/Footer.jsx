@@ -5,7 +5,7 @@ const Footer = () => {
 
   return (
     <footer className="bg-footerBg min-h-[50vh] flex items-center justify-center px-8 py-4 w-full">
-      <main className="flex flex-col gap-8 w-full">
+      <main className="flex flex-col gap-8 w-full mt-[50px]">
         <section className="flex flex-col md:flex-row items-start gap-8 md:gap-0 justify-between w-full">
           <div className="flex flex-row items-start justify-between md:max-w-full max-w-[280px] w-full gap-4 flex-wrap flex-1">
             {footerLinks.map(({ header, links }) => (
